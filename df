@@ -1,0 +1,41 @@
+* [33mcommit df611daf7ddc8beda13f6e696e191637e5de4129[m
+[31m|[m Author: Antonio José Muñoz Carmona <amcarmona@telefonica.net>
+[31m|[m Date:   Tue Jun 23 19:44:41 2015 +0200
+[31m|[m 
+[31m|[m     Rama créditos
+[31m|[m  
+* [33mcommit cbf7023defba2107207a140dbad30e6da0144650[m
+[31m|[m Author: Antonio José Muñoz Carmona <amcarmona@telefonica.net>
+[31m|[m Date:   Wed Jun 17 21:22:48 2015 +0200
+[31m|[m 
+[31m|[m     Despliegue en Heroku
+[31m|[m  
+* [33mcommit 57a1ff39942d99b81f744706121389dd600eaab1[m
+[31m|[m Author: Antonio José Muñoz Carmona <amcarmona@telefonica.net>
+[31m|[m Date:   Tue Jun 16 18:22:06 2015 +0200
+[31m|[m 
+[31m|[m     Diseño responsivo
+[31m|[m  
+* [33mcommit 9828745db44b02112733f56af7f913640c851f8c[m
+[31m|[m Author: Antonio José Muñoz Carmona <amcarmona@telefonica.net>
+[31m|[m Date:   Tue Jun 16 13:32:30 2015 +0200
+[31m|[m 
+[31m|[m     express-partials
+[31m|[m  
+* [33mcommit 4fc0c0a8193015d2447139ada5a6786c4ede09ff[m
+[31m|[m Author: Antonio José Muñoz Carmona <amcarmona@telefonica.net>
+[31m|[m Date:   Tue Jun 16 12:28:44 2015 +0200
+[31m|[m 
+[31m|[m     Primera pregunta
+[31m|[m  
+* [33mcommit c548fa0dc3e4976e8d74238b23f079c39b7eab63[m
+[31m|[m Author: Antonio José Muñoz Carmona <amcarmona@telefonica.net>
+[31m|[m Date:   Thu Jun 11 19:29:23 2015 +0200
+[31m|[m 
+[31m|[m     Primera página y favicon
+[31m|[m  
+* [33mcommit b11883b499d9c7f1c67d0c8a7265ac5c7d5dd10f[m
+  Author: Antonio José Muñoz Carmona <amcarmona@telefonica.net>
+  Date:   Thu Jun 11 12:40:29 2015 +0200
+  
+      esqueleto express-generator
