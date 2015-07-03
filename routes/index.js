@@ -12,10 +12,11 @@ router.get('/', function(req, res) {
 router.param('quizId',quizController.load); //Se carga siempre que venga un :quizID en un GET
 
 // Definición de rutas de /quizes
-router.get('/quizes',                      quizController.index);
-router.get('/quizes/:quizId(\\d+)',        quizController.show);
-router.get('/quizes/:quizId(\\d+)/answer', quizController.answer);
-
+router.get('/quizes',                    	quizController.index);
+router.get('/quizes/:quizId(\\d+)',      	quizController.show);
+router.get('/quizes/:quizId(\\d+)/answer',	quizController.answer);
+router.get('/quizes/new',					quizController.new);
+router.post('/quizes/create',				quizController.create);
 
 
 /* GET página del autor. */
