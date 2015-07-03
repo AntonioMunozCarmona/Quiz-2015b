@@ -1,13 +1,22 @@
-*                   { margin: 0; padding: 0;}
+*                   { margin: 0px; padding: 0px;}
 
 body                { font: 16px Georgia, serif;}
 
-#page-wrap          { margin: 2% auto; color: white; }
+#page-wrap          { margin: 0 auto; color: white; background: #505050;}
 #page-wrap > .main  { border: 1px solid #999, padding: 1%;
                       margin-bottom: 1px; color: black;}
 
-section > div       {padding: 20px;}
-header,nav,section,footer   { background: #eee; text-align: center; }
+section > div       { padding: 20px;}
+header 				{ padding: 1%; text-align: center; background: #00B7FF;} 
+
+nav, section, footer   { background: #eee; text-align: center; padding: 1%;}
+nav 				{ padding: 0.5%; background: #808080; } 
 
 nav span            { margin: 0px 10px 0px 0px;}
+footer 				{ background: #505050; }
 footer a            { margin: 0px 10px 0px 0px;}
+a 					{ text-decoration: none; color: #00B7FF; } 
+
+a:hover				{ font-size: large; font-weight: bold; }
+
+a:active			{ text-decoration: ;} 
