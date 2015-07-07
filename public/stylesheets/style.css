@@ -1,6 +1,6 @@
 *                   { margin: 0px; padding: 0px;}
 
-body                { font: 16px Georgia, serif;}
+body                { font: Georgia, serif;}
 
 #page-wrap          { margin: 0 auto; color: white; background: #505050;}
 #page-wrap > .main  { border: 1px solid #999, padding: 1%;
@@ -20,3 +20,5 @@ a 					{ text-decoration: none; color: #00B7FF; }
 a:hover				{ font-size: large; font-weight: bold; }
 
 a:active			{ text-decoration: ;} 
+
+#ErrorMsgs			{ color: #f61; font-size: smaler;}
