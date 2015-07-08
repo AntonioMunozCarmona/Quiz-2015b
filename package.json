@@ -21,7 +21,10 @@
     "express-partials": "^0.3.0",
     "morgan": "~1.3.0",
     "pg": "^4.1.1",
+<<<<<<< HEAD
     "pg-hstore": "^2.3.2",
+=======
+>>>>>>> acd9787df89cebfc856eb35c8536c33ed7f7ecbe
     "sequelize": "^2.0.0",
     "serve-favicon": "~2.1.3"
   }
