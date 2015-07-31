@@ -30,6 +30,23 @@ app.use(session());
 app.use(methodOverride('_method'));
 app.use(express.static(path.join(__dirname, 'public')));
 
+//Manejador del tiempo de sesión
+app.use(function(req, res, next) {
+  if (req.session.user) {           //Si estamos en una sesion
+    if (!req.session.ultimamarca){
+      req.session.ultimamarca=(new Date()).getTime();
+     }else{
+      if((new Date()).getTime()-req.session.ultimamarca > 1*60*1000){ //
+        delete req.session.user;     //eliminamos el usuario
+        req.session.ultimamarca="";   //Anulamos la variable de tiempo
+      }else{//hay actividad se pone nueva marca de tiempo
+        req.session.ultimamarca=(new Date()).getTime();
+      }
+    }
+  }
+  next();
+});
+
 // Helpers dinamicos:
 app.use(function(req, res, next) {
 
@@ -54,6 +71,7 @@ app.use(function(req, res, next) {
 });
 
 
+
 // error handlers
 
 // development error handler
@@ -67,7 +85,7 @@ if (app.get('env') === 'development') {
             errors: []
         });
     });
-}
+};
 
 // production error handler
 // no stacktraces leaked to user

@@ -14,7 +14,7 @@ nav 				{ padding: 0.5%; background: #808080; }
 
 nav span            { margin: 0px 10px 0px 0px;}
 footer 				{ background: #505050; }
-footer a            { margin: 0px 10px 0px 0px;}
+footer a            { margin: 0px 10px 0px 0px; color:#FFFFFF;}
 a 					{ text-decoration: none; color: #505050; } 
 
 a:hover				{ font-size: large; font-weight: bold; }
