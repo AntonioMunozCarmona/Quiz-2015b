@@ -2,8 +2,8 @@
 
 body                { font: Georgia, serif;}
 
-#page-wrap          { margin: 0 auto; color: white; background: #505050;}
-#page-wrap > .main  { border: 1px solid #999, padding: 1%;
+#page-wrap          { margin: 2% auto; color: white; background: #505050;}
+#page-wrap > .main  { border: 1px solid #999; padding: 1%;
                       margin-bottom: 1px; color: black;}
 
 section > div       { padding: 20px;}
@@ -17,10 +17,10 @@ footer 				{ background: #505050; }
 footer a            { margin: 0px 10px 0px 0px; color:#FFFFFF;}
 a 					{ text-decoration: none; color: #505050; } 
 
-a:hover				{ font-size: large; font-weight: bold; }
+/*a:hover				{ font-size: large; font-weight: bold; }
 
 a:active			{ text-decoration: ;} 
-
+*/
 #ErrorMsgs			{ color: #f61; font-size: smaler;}
 
 .right				{ float: right; padding: 5px; border-radius: 10%; background-color: #999; co: #505050;}

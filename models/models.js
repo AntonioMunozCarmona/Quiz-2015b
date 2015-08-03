@@ -34,8 +34,10 @@ var Quiz = sequelize.import(path.join(__dirname,'quiz'));
 var comment_path = path.join(__dirname,'comment');
 var Comment = sequelize.import(comment_path);
 
-Comment.belongsTo(Quiz);	//Relacion de tipo 1
-Quiz.hasMany(Comment);		//Relacion de tipo N 	==> 1 a N
+Comment.belongsTo(Quiz);							//Relacion de tipo 1
+Quiz.hasMany(Comment, { onDelete: 'cascade', 		//Relacion de tipo N 	==> 1 a N
+						 hooks: true }); 		//Para borrar los comentarios en cascada 
+												//cuando se borra una pregunta
 
 exports.Quiz = Quiz;		//Exporta la definición de la tabla Quiz
 exports.Comment = Comment;	//Exporta la definicion de la tabla Comment	
